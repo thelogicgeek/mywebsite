@@ -1,0 +1,28 @@
+﻿@model Page
+@{
+    ViewData["Title"] = "Edit Page";
+}
+
+<h3>@Model.Title</h3>
+
+<form asp-controller="Admin" asp-action="SavePage" method="post">
+    <input name="title" type="hidden" value="@Model.Title" />
+    <div class="form-group">
+        <textarea id="summernote" name="content" class="form-control" rows="30">
+            @Model.Content
+        </textarea>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
+
+@section Scripts {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote();
+        });
+    </script>
+}
