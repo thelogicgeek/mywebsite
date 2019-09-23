@@ -8,7 +8,7 @@ If you have any questions or improvements let me know by creating a issue or lea
 
 # About the video
 
-In this tutorial you'll learn how to create a simple but powerfull Content Management System (CMS) from scratch in ASP.NET Core 2.2.
+In this tutorial you'll learn how to create a simple but powerful Content Management System (CMS) from scratch in ASP.NET Core 2.2.
 
 This tutorial is a good start if you know the basics of C# but want to learn the next step in how to apply that knowledge if it comes to building data driven web applications.
 
