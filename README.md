@@ -2,7 +2,7 @@
 
 This repository contains the source files from the youtube video "Build your own CMS from scratch in ASP.NET Core"   
 
-[https://youtu.be/xo58ikkIx3I)](https://youtu.be/xo58ikkIx3I)
+https://youtu.be/xo58ikkIx3I
 
 If you have any questions or improvements let me know by creating a issue or leave a comment in the YouTube Video.
 
